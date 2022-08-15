@@ -1,8 +1,12 @@
-import NavBar from './components/header/NavBar';
+import AboutUs from "./components/aboutUs/AboutUs";
+import NavBar from "./components/header/NavBar";
 
 function App() {
   return (
-    <NavBar/>
+    <>
+      <NavBar />
+      <AboutUs />
+    </>
   );
 }
 
