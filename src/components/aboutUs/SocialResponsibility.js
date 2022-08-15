@@ -8,7 +8,7 @@ const SocialResponsibility = () => {
         Corporate Social Responsibility
       </h2>
       <img src={divider} className="mt-[50px]" alt="" />
-      <div className="grid lg:grid-cols-2 w-[1250px] h-[560px] my-[50px]">
+      <div className="grid lg:grid-cols-2 w-[1250px] h-[560px] mx-auto my-[50px]">
         <div className="mr-[40px]">
           <div className="bg-[#FAFAFA] p-[10px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px]">
             <h3 className="text-[#474747] font-[1000] text-[24px] tracking-widest font-['Roboto_Flex'] leading-[150%] not-italic">
@@ -25,7 +25,7 @@ const SocialResponsibility = () => {
               monetary sections of the society.
             </p>
           </div>
-          <h3 className="font-['Roboto_flex'] font-[1000] text-[24px] tracking-widest text-[#919191] p-[10px] bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] my-[15px]">
+          <h3 className="font-['Roboto_flex'] font-[1000] text-[24px] tracking-widest text-[#919191] p-[10px] bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] my-[25px]">
             Support for Rural Farmers
           </h3>
           <h3 className="font-['Roboto_flex'] font-[1000] text-[24px] tracking-widest text-[#919191] p-[10px] bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px]">
@@ -33,7 +33,7 @@ const SocialResponsibility = () => {
           </h3>
         </div>
         <div className="ml-[40px]">
-          <img src={charityPic} alt="" />
+          <img src={charityPic} alt="" className="w-full"/>
         </div>
       </div>
     </section>

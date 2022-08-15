@@ -10,6 +10,9 @@ import vision from "../../assets/images/Vision.png";
 import Cards from "../Card/Cards";
 import Mission from "./Mission";
 import SocialResponsibility from "./SocialResponsibility";
+import FounderSection from "./FounderSection";
+import GroupCompanies from "./GroupCompanies";
+import Footer from "../Footer/Footer";
 const AboutUs = () => {
   return (
     <>
@@ -124,7 +127,10 @@ const AboutUs = () => {
         </p>
       </section>
       <Mission />
-      <SocialResponsibility/>
+      <SocialResponsibility />
+      <FounderSection />
+      <GroupCompanies />
+      <Footer/>
     </>
   );
 };
