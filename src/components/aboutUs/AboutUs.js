@@ -8,6 +8,8 @@ import real_state from "../../assets/images/real_estate_agent.png";
 import black_divider from "../../assets/images/black-divider.png";
 import vision from "../../assets/images/Vision.png";
 import Cards from "../Card/Cards";
+import Mission from "./Mission";
+import SocialResponsibility from "./SocialResponsibility";
 const AboutUs = () => {
   return (
     <>
@@ -110,18 +112,19 @@ const AboutUs = () => {
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          // height:'329px',
-          margin: "22px 0px",
+          margin: "50px 0px",
         }}>
-        <h2 className="text-center text-white relative pt-[40px] font-normal text-[32px] leading-[48px] font-[Cinzel]">
+        <h2 className="text-center text-white pt-[40px] font-normal text-[32px] leading-[48px] font-[Cinzel]">
           Vision
         </h2>
-        <p className="w-[850px] relative pb-[148px] pt-[40px] mx-auto font-['Roboto_flex'] font-[1000] italic text-[20px] leading-[30px] text-center text-[#fafafa] tracking-[0.0em]">
+        <p className="w-[850px] pb-[148px] pt-[40px] mx-auto font-['Roboto_flex'] font-[1000] italic text-[20px] leading-[30px] text-center text-[#fafafa] tracking-[0.0em]">
           We aim to ensure top-class service to our stakeholders & diversify our
           business to other service-oriented sectors with the ultimate goal of
           achieving customer satisfaction & end-user interaction.
         </p>
       </section>
+      <Mission />
+      <SocialResponsibility/>
     </>
   );
 };
