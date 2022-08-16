@@ -1,24 +1,26 @@
 import image1 from "../../assets/images/image 3.png";
 import image2 from "../../assets/images/image 5.png";
 import image3 from "../../assets/images/image 9.png";
+import divider from "../../assets/images/Logo divider.png";
 const GroupCompanies = () => {
   return (
-    <section>
-      <h2 className="text-center text-[#474747] font-normal text-[32px] leading-[48px] font-[Cinzel]">
-        Founder's Message
+    <section className="py-[50px] bg-[#FAFAFA]">
+      <h2 className="text-center text-[#474747] font-normal text-[32px] leading-[150%] font-[Cinzel] tracking-widest">
+        Group Companies
       </h2>
-      <div className="grid lg:grid-cols-3">
-        <div>
+      <img src={divider} className="my-[50px]" alt="" />
+      <div className="flex lg:justify-center w-[1168.49px] mx-auto">
+        <div className="mr-[50px]">
           <img src={image1} alt="" />
-          <h3>Agriculture</h3>
+          <h3 className="text-center not-italic text-[#474747] font-[1000] text-[24px] leading-[150%] font-['Roboto_Flex'] tracking-widest mt-[10px]">Agriculture</h3>
         </div>
-        <div>
+        <div className="mr-[50px]">
           <img src={image2} alt="" />
-          <h3>Fuel</h3>
+          <h3 className="text-center not-italic text-[#474747] font-[1000] text-[24px] leading-[150%] font-['Roboto_Flex'] tracking-widest mt-[10px]">Fuel</h3>
         </div>
         <div>
-          <img src={image3} alt="" />
-          <h3>Foods</h3>
+          <img src={image3} className='h-[86%]' alt="" />
+          <h3 className="text-center not-italic text-[#474747] font-[1000] text-[24px] leading-[150%] font-['Roboto_Flex'] tracking-widest mt-[10px]">Foods</h3>
         </div>
       </div>
     </section>
