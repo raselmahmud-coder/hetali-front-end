@@ -1,31 +1,32 @@
-import dotBg from "../../assets/images/dotVF.jpg";
+import mainBg from "../../assets/images/main-bg.jpg";
 import founderImg from "../../assets/images/founderImage.png";
 import founderLogo from "../../assets/images/founderLogo.png";
 import divider from "../../assets/images/Logo divider (1).png";
 
 const FounderSection = () => {
+  const background = {
+    backgroundImage: `url(${mainBg}), linear-gradient(rgb(245, 245, 245), rgb(245, 245, 245))`,
+    backgroundBlendMode: "overlay",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    margin: "0px 0px",
+  }
   return (
     <section
-      style={{
-        backgroundImage: `url(${dotBg}), linear-gradient(rgba(70,70,70),rgba(70,70,70))`,
-        backgroundBlendMode: "overlay",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        margin: "0px 0px",
-      }}
+      style={background}
       className="pt-[50px] pb-[120px]">
-      <div className="bg-[rgba(255,255,255,0.5)] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] mx-auto w-[1066.29px] rounded-[10px]">
+      <div className="bg-[rgba(245,245,245,0.5)] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] mx-auto w-[1066.29px] rounded-[10px]">
         <h2 className="pt-[50px] pb-[41px] text-center text-[#474747] font-normal text-[32px] leading-[48px] font-[Cinzel]">
           Founder's Message
         </h2>
         <img className="mx-auto" src={founderImg} alt="" />
         <img className="mx-auto pt-[20px]" src={founderLogo} alt="" />
-        <h1 className="mx-auto text-center mb-[20px] bg-[rgba(255,255,255,0.7)] not-italic font-['Roboto_Flex'] font-[1000] text-[32px] leading-[150%] tracking-widest text-[#474747] py-[10px] w-[521px]">
+        <h1 className="mx-auto text-center mb-[20px] bg-[rgba(245,245,245,0.7)] not-italic font-['Roboto_Flex'] font-[1000] text-[32px] leading-[150%] tracking-widest text-[#474747] py-[10px] w-[521px]">
           Mr. Jayesh H. Pandya
         </h1>
         <p
-          className="w-[600px] mx-auto text-center bg-[rgba(255,255,255,0.9)] italic font-['Roboto_Flex'] font-[671] pb-[20px] text-[20px] leading-[150%] tracking-[0.03em] text-[#474747]"
+          className="w-[600px] mx-auto text-center bg-[rgba(245,245,245,0.9)] italic font-['Roboto_Flex'] font-[671] pb-[20px] text-[20px] leading-[150%] tracking-[0.03em] text-[#474747]"
           style={{ fontStretch: "132" }}>
           “When a customer buys a home, he is giving up a major chunk of his
           life's savings to do so. It is imperative to give him exactly what he
@@ -41,7 +42,7 @@ const FounderSection = () => {
           achievements while holding dear to us our basic principles
         </p>
       </div>
-      <img src={divider} alt="" />
+      <img src={divider} alt="" className="mx-auto"  />
     </section>
   );
 };

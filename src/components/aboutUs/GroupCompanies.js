@@ -8,7 +8,7 @@ const GroupCompanies = () => {
       <h2 className="text-center text-[#474747] font-normal text-[32px] leading-[150%] font-[Cinzel] tracking-widest">
         Group Companies
       </h2>
-      <img src={divider} className="my-[50px]" alt="" />
+      <img src={divider} className="my-[50px] mx-auto" alt="" />
       <div className="flex lg:justify-center w-[1168.49px] mx-auto">
         <div className="mr-[50px]">
           <img src={image1} alt="" />

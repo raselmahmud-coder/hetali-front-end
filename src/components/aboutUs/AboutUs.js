@@ -7,6 +7,7 @@ import handshake from "../../assets/images/handshake.png";
 import real_state from "../../assets/images/real_estate_agent.png";
 import black_divider from "../../assets/images/black-divider.png";
 import vision from "../../assets/images/Vision.png";
+import mainBg from "../../assets/images/main-bg.jpg"
 import Cards from "../Card/Cards";
 import Mission from "./Mission";
 import SocialResponsibility from "./SocialResponsibility";
@@ -14,24 +15,35 @@ import FounderSection from "./FounderSection";
 import GroupCompanies from "./GroupCompanies";
 import Footer from "../Footer/Footer";
 const AboutUs = () => {
+  const background = {
+    backgroundImage: `url(${mainBg}), linear-gradient(rgb(225, 225, 225), rgb(225, 225, 225))`,
+    backgroundBlendMode: "overlay",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    margin: "0px 0px",
+  }
   return (
     <>
       <div className="text-center">
         <h1 className="uppercase font-[Cinzel] text-[32px] font-normal leading-[48px] my-3">
           About Us
         </h1>
-        <img src={divider} alt="" />
+        <img src={divider} alt="" className="mx-auto" />
       </div>
       <div className="my-8">
-        <img src={coverImg} alt="" className="my-4" />
-        <p className="w-[850px] italic mx-auto text-center text-[20px] text-[#474747] font-[1000]">
+        <img src={coverImg} alt="" className="mx-auto"  />
+
+        <div style={background}>
+
+        <p className="w-[850px] italic py-[50px] mx-auto text-center text-[20px] text-[#474747] font-[1000]">
           We endeavour to build homes which make it's residents happy and proud
           of their address. Residents are at heart of everything we do, we build
           homes to live in, not houses to stay in.
         </p>
-        <img src={divider2} className="my-5" alt="" />
-      </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 w-[850px] gap-x-[60px] gap-y-[15px] mx-auto my-[10px]">
+        <img src={divider2} className="my-5 mx-auto" alt="" />
+      
+      <div className="grid md:grid-cols-2 grid-cols-1 w-[850px] gap-x-[60px] gap-y-[15px] mx-auto my-[40px]">
         <Cards
           icon={clock}
           text={
@@ -83,12 +95,11 @@ const AboutUs = () => {
           }
         />
       </div>
-      <section className="mb-[40px]">
+      <section className="mb-[40px] pb-[10px]">
         <div>
-          <img src={black_divider} alt="" />
+          <img src={black_divider} alt="" className="mx-auto" />
         </div>
-        <img src={divider2} className="my-5" alt="" />
-        <p className="w-[850px] mx-auto text-[#474747] text-justify font-normal text-[24px] font-['Roboto_Flex']">
+        <p className="w-[850px] mx-auto py-[40px] text-[#474747] text-justify font-normal text-[24px] font-['Roboto_Flex']">
           Established in 1992, Hetali Group is a leading real estate developer
           of residential spaces across Mumbai and have earned an unmatched
           reputation amongst its very loyal customers. The company's
@@ -109,6 +120,9 @@ const AboutUs = () => {
           home user.
         </p>
       </section>
+      
+      </div>
+      </div>
       <section
         style={{
           backgroundImage: `url(${vision})`,

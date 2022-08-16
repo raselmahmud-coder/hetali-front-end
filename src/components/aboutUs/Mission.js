@@ -7,7 +7,7 @@ const Mission = () => {
       <h2 className="text-center text-[#474747] font-normal text-[32px] tracking-widest font-[Cinzel]">
         Mission
       </h2>
-      <img className="my-[50px]" src={divider} alt="" />
+      <img className="my-[50px] mx-auto" src={divider} alt="" />
       <div className="grid lg:grid-cols-2 lg:gap-[4px] w-[1250px] h-[405px] mx-auto">
         <img src={missionPic} alt="" className="w-[550px] " />
         <div className="w-[620px] my-[6px]">
