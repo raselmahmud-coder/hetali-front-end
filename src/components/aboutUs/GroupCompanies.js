@@ -19,7 +19,7 @@ const GroupCompanies = () => {
           <h3 className="text-center not-italic text-[#474747] font-[1000] text-[24px] leading-[150%] font-['Roboto_Flex'] tracking-widest mt-[10px]">Fuel</h3>
         </div>
         <div>
-          <img src={image3} className='h-[86%]' alt="" />
+          <img src={image3} className='h-[88%]' alt="" />
           <h3 className="text-center not-italic text-[#474747] font-[1000] text-[24px] leading-[150%] font-['Roboto_Flex'] tracking-widest mt-[10px]">Foods</h3>
         </div>
       </div>
