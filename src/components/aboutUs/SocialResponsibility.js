@@ -8,7 +8,7 @@ const SocialResponsibility = () => {
         Corporate Social Responsibility
       </h2>
       <img src={divider} className="mt-[50px] mx-auto" alt="" />
-      <div className="grid lg:grid-cols-2 w-[1250px] h-[560px] mx-auto my-[50px]">
+      <div className="grid lg:grid-cols-2 max-w-[1250px] max-h-[560px] mx-auto my-[50px]">
         <div className="mr-[40px]">
           <div className="bg-[#FAFAFA] p-[10px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px]">
             <h3 className="text-[#474747] font-[1000] text-[24px] tracking-widest font-['Roboto_Flex'] leading-[150%] not-italic">
@@ -33,7 +33,7 @@ const SocialResponsibility = () => {
           </h3>
         </div>
         <div className="ml-[40px]">
-          <img src={charityPic} alt="" className="w-full h-[98%]"/>
+          <img src={charityPic} alt="" className="max-w-full max-h-[98%]"/>
         </div>
       </div>
     </section>

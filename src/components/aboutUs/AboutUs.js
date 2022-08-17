@@ -36,14 +36,14 @@ const AboutUs = () => {
 
         <div style={background}>
 
-        <p className="w-[850px] italic py-[50px] mx-auto text-center text-[20px] text-[#474747] font-[1000]">
+        <p className="max-w-[850px] italic py-[50px] mx-auto text-center text-[20px] text-[#474747] font-[1000]">
           We endeavour to build homes which make it's residents happy and proud
           of their address. Residents are at heart of everything we do, we build
           homes to live in, not houses to stay in.
         </p>
         <img src={divider2} className="my-5 mx-auto" alt="" />
       
-      <div className="grid md:grid-cols-2 grid-cols-1 w-[850px] gap-x-[60px] gap-y-[15px] mx-auto my-[40px]">
+      <div className="grid md:grid-cols-2 grid-cols-1 max-w-[850px] gap-x-[60px] gap-y-[15px] mx-auto my-[40px]">
         <Cards
           icon={clock}
           text={
@@ -99,7 +99,7 @@ const AboutUs = () => {
         <div>
           <img src={black_divider} alt="" className="mx-auto" />
         </div>
-        <p className="w-[850px] mx-auto py-[40px] text-[#474747] text-justify font-normal text-[24px] font-['Roboto_Flex']">
+        <p className="max-w-[850px] mx-auto py-[40px] text-[#474747] text-justify font-normal text-[24px] font-['Roboto_Flex']">
           Established in 1992, Hetali Group is a leading real estate developer
           of residential spaces across Mumbai and have earned an unmatched
           reputation amongst its very loyal customers. The company's
@@ -134,7 +134,7 @@ const AboutUs = () => {
         <h2 className="text-center text-white pt-[40px] font-normal text-[32px] leading-[48px] font-[Cinzel]">
           Vision
         </h2>
-        <p className="w-[850px] pb-[148px] pt-[40px] mx-auto font-['Roboto_flex'] font-[1000] italic text-[20px] leading-[30px] text-center text-[#fafafa] tracking-[0.0em]">
+        <p className="max-w-[850px] pb-[148px] pt-[40px] mx-auto font-['Roboto_flex'] font-[1000] italic text-[20px] leading-[30px] text-center text-[#fafafa] tracking-[0.0em]">
           We aim to ensure top-class service to our stakeholders & diversify our
           business to other service-oriented sectors with the ultimate goal of
           achieving customer satisfaction & end-user interaction.

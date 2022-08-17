@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <img src={footerDivider} alt="" className="w-full mx-auto" />
+        <img src={footerDivider} alt="" className="max-w-full mx-auto" />
           <p className="font-['Roboto_flex'] not-italic font-[400] text-[10px] leading-[150%] text-[#fff] text-center pt-[20px] pb-[36px]">
             Copyright &copy; 2022 Hetali Enterprises - All Rights Reserved.
           </p>

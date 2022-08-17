@@ -8,10 +8,10 @@ const Mission = () => {
         Mission
       </h2>
       <img className="my-[50px] mx-auto" src={divider} alt="" />
-      <div className="grid lg:grid-cols-2 lg:gap-[4px] w-[1250px] h-[405px] mx-auto">
+      <div className="grid lg:grid-cols-2 lg:gap-[4px] max-w-[1250px] max-h-[405px] mx-auto">
         <img src={missionPic} alt="" className="w-[550px] " />
-        <div className="w-[620px] my-[6px]">
-          <div className="bg-[#f5f5f5] h-[138px] p-[10px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px]">
+        <div className="max-w-[620px] my-[6px]">
+          <div className="bg-[#f5f5f5] max-h-[138px] p-[10px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[10px]">
             <h3 className="font-['Roboto_flex'] font-[1000] text-[24px] tracking-widest text-[#474747]">
               Personalized
             </h3>
